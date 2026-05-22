@@ -1,0 +1,34 @@
+# General Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter artifacts
+.ipynb_checkpoints/
+
+# Build and compiled artifacts
+**/build/
+**/temp.*
+**/*.so
+**/*.o
+**/*.dylib
+**/*.pyd
+
+# Large datasets, saved models, outputs, and temporary data
+cs231n/assignments/*/cs231n/datasets/
+cs231n/assignments/*/cs231n/saved/
+cs231n/assignments/*/cs231n/exp/
+cs231n/assignments/*/cs231n/build/
+cs231n/assignments/*/cs231n/im2col_cython*
+cs231n/assignments/*/pretrained_model/
+cs231n/assignments/*/data/
+cs231n/assignments/*/images/
+
+# Common large file formats
+**/*.h5
+**/*.pt
+**/*.pth
+**/*.npz
+**/*.tar.gz
+**/*.mp4
+**/*.gif

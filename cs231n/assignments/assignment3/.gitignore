@@ -1,0 +1,13 @@
+# Ignore local large dataset, pretrained model, and output files for assignment3
+cs231n/datasets/
+cs231n/exp/
+pretrained_model/
+data/
+images/
+cs231n/*.h5
+cs231n/*.pt
+cs231n/*.pth
+cs231n/*.npz
+cs231n/*.tar.gz
+cs231n/*.mp4
+cs231n/*.gif

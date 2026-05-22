@@ -1,0 +1,12 @@
+# Ignore local large dataset and build files for assignment2
+cs231n/datasets/
+cs231n/build/
+cs231n/exp/
+cs231n/im2col_cython*
+cs231n/*.h5
+cs231n/*.pt
+cs231n/*.pth
+cs231n/*.npz
+cs231n/*.tar.gz
+cs231n/*.mp4
+cs231n/*.gif
